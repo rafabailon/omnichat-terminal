@@ -1,0 +1,6 @@
+include .env.example
+include *.md
+include main.py
+include src/__main__.py
+include scripts/benchmark_local.py
+recursive-include tests *.py
